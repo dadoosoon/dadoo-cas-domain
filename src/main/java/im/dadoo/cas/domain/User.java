@@ -6,6 +6,7 @@
 
 package im.dadoo.cas.domain;
 
+import lombok.AllArgsConstructor;
 import lombok.Data;
 
 /**
@@ -13,6 +14,7 @@ import lombok.Data;
  * @author codekitten
  */
 @Data
+@AllArgsConstructor
 public class User {
   
   private String name;
