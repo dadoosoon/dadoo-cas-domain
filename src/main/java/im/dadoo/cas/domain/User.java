@@ -8,14 +8,18 @@ package im.dadoo.cas.domain;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
+import lombok.NoArgsConstructor;
 
 /**
  *
  * @author codekitten
  */
 @Data
+@NoArgsConstructor
 @AllArgsConstructor
 public class User {
+  
+  private int id;
   
   private String name;
   
